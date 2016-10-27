@@ -7,3 +7,4 @@ cd build
 qmake ../nheqminer/nheqminer.pro
 make
 ~/nheqminer/build/nheqminer -l eu1-zcash.flypool.org:3333 -u tmQKKUqyifCebhPcmA6vBT4uLTLynHLDTfE.worker
+#~/nheqminer/build/nheqminer -l zec-eu.suprnova.cc:2142 -u username.workername -p workerpassword
