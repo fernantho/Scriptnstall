@@ -15,6 +15,7 @@ cd ../../../Linux_cmake/nheqminer_cpu
 cmake .
 make -j $(nproc)
 NPROC=$(nproc)
+export NPROC
 minero=hostname
 #~/nheqminer/Linux_cmake/nheqminer_cpu -t $NPROC -l eu1-zcash.flypool.org:3333 -u address.worker
 ~/nheqminer/Linux_cmake/nheqminer_cpu/nheqminer_cpu -t $NPROC -l zec-eu.suprnova.cc:2142 -u fernantho.$minero -p goZEC
