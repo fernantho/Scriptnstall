@@ -5,7 +5,7 @@ sudo apt-get install qt5-default -y
 sudo apt-get install git -y
 sudo apt-get install make -y
 sudo apt-get install g++ -y
-sudo rm -r ~/nheqminer
+sudo rm -rf ~/nheqminer
 sudo apt-get install cmake build-essential libboost-all-dev -y
 git clone -b Linux https://github.com/nicehash/nheqminer.git
 #git clone https://github.com/etherchain-org/nheqminer.git
