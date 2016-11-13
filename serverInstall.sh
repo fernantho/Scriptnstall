@@ -1,4 +1,4 @@
-#!/bin/bash -v
+#!/bin/bash
 # -*- ENCODING: UTF-8 -*-
 
 echo "Checking servers connection"
